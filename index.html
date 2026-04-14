@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛒 My Simple Shop</h1>
+
+<div class="products">
+  <div class="product">
+    <h3>Product 1</h3>
+    <p>Price: ₹100</p>
+    <button onclick="addToCart(100)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Product 2</h3>
+    <p>Price: ₹200</p>
+    <button onclick="addToCart(200)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Product 3</h3>
+    <p>Price: ₹300</p>
+    <button onclick="addToCart(300)">Add to Cart</button>
+  </div>
+</div>
+
+<h2>🧾 Cart</h2>
+<p id="cartItems">Items: 0</p>
+<p id="totalPrice">Total: ₹0</p>
+<button onclick="checkout()">Checkout</button>
+
+<script src="script.js"></script>
+</body>
+</html>
